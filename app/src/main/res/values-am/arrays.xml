@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Amharic Language - Array Resources -->
+<!-- Amharic Language - Array Resources
+     Contains category and priority arrays in Amharic language -->
 <resources>
     <!-- Categories in Amharic -->
     <string-array name="categories">
