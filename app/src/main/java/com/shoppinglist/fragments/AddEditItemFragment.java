@@ -2,6 +2,16 @@
  * AddEditItemFragment - Shopping Item Management
  * Handles adding and editing shopping items with categories, quantities, and priorities
  * Supports voice input and barcode scanning
+ * 
+ * Features:
+ * - Add new shopping items
+ * - Edit existing items
+ * - Category selection
+ * - Priority levels (High, Medium, Low)
+ * - Quantity and unit management
+ * - Voice input support
+ * - Barcode scanning
+ * - Item notes and descriptions
  */
 package com.shoppinglist.fragments;
 
