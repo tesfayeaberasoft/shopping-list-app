@@ -12,6 +12,12 @@
  * - Voice input support
  * - Barcode scanning
  * - Item notes and descriptions
+ * 
+ * UI Components:
+ * - TextInputLayout for item name
+ * - Spinner for categories
+ * - RadioGroup for priorities
+ * - EditText for quantity and notes
  */
 package com.shoppinglist.fragments;
 
