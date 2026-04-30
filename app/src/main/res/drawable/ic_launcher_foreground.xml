@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- App Icon Foreground - Shopping Cart with Checklist Design
-     Vector graphic featuring shopping cart and checklist items -->
+     Vector graphic featuring shopping cart and checklist items
+     
+     Design Elements:
+     - Shopping cart with handle and wheels
+     - Checklist paper with "CHECKED" title
+     - Three grocery items (milk, apple, bread)
+     - Green checkmarks for completed items
+     - Orange and brown color scheme
+-->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
