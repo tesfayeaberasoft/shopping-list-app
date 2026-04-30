@@ -11,6 +11,12 @@
  * - Pantry inventory
  * - Shopping history
  * - Reminders and notifications
+ * 
+ * Architecture:
+ * - Room Database with SQLite
+ * - Type converters for complex types
+ * - Data Access Objects (DAOs)
+ * - Entity relationships
  */
 package com.shoppinglist.database;
 
