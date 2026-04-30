@@ -412,7 +412,7 @@ For support, email: tesfayeaberalingane@gmail.com
 ### Main Screen
 Main shopping lists overview with quick add functionality and empty state handling.
 
-![Main Screen](docs/screenshots/main_screen.png)
+![Main Screen](docs/screenshots/main_screen.jpg)
 
 - Shopping lists overview
 - Quick add button
@@ -422,7 +422,7 @@ Main shopping lists overview with quick add functionality and empty state handli
 ### Shopping List Detail
 Detailed view of individual shopping lists with items organized by categories.
 
-![Shopping List Detail](docs/screenshots/list_detail.png)
+![Shopping List Detail](docs/screenshots/list_detail.jpg)
 
 - Item list with categories
 - Budget progress indicator
@@ -433,7 +433,7 @@ Detailed view of individual shopping lists with items organized by categories.
 ### Add/Edit Item
 Interface for adding and editing shopping items with detailed options.
 
-![Add/Edit Item](docs/screenshots/add_item.png)
+![Add/Edit Item](docs/screenshots/add_item.jpg)
 
 - Item name input
 - Category selection
@@ -445,7 +445,7 @@ Interface for adding and editing shopping items with detailed options.
 ### Analytics Dashboard
 Comprehensive spending analytics and reports.
 
-![Analytics Dashboard](docs/screenshots/analytics.png)
+![Analytics Dashboard](docs/screenshots/analytics.jpg)
 
 - Total spending overview
 - Category-wise spending breakdown
@@ -457,7 +457,7 @@ Comprehensive spending analytics and reports.
 ### Pantry Management
 Inventory management with expiry date tracking.
 
-![Pantry Management](docs/screenshots/pantry.png)
+![Pantry Management](docs/screenshots/pantry.jpg)
 
 - Pantry items list
 - Current quantity display
@@ -468,7 +468,7 @@ Inventory management with expiry date tracking.
 ### Reminders
 Reminder configuration and management interface.
 
-![Reminders](docs/screenshots/reminders.png)
+![Reminders](docs/screenshots/reminders.jpg)
 
 - Reminder list view
 - Create new reminder
@@ -479,7 +479,7 @@ Reminder configuration and management interface.
 ### Settings
 Application settings and preferences.
 
-![Settings](docs/screenshots/settings.png)
+![Settings](docs/screenshots/settings.jpg)
 
 - Language selection (English, Amharic, German)
 - Theme preferences (Light, Dark, System)
@@ -490,7 +490,7 @@ Application settings and preferences.
 ### Barcode Scanner
 Quick item addition using barcode scanning.
 
-![Barcode Scanner](docs/screenshots/barcode_scanner.png)
+![Barcode Scanner](docs/screenshots/barcode_scanner.jpg)
 
 - Camera preview
 - Barcode detection
@@ -500,7 +500,7 @@ Quick item addition using barcode scanning.
 ### Voice Input
 Add items using voice commands.
 
-![Voice Input](docs/screenshots/voice_input.png)
+![Voice Input](docs/screenshots/voice_input.jpg)
 
 - Voice recording interface
 - Speech recognition
@@ -510,7 +510,7 @@ Add items using voice commands.
 ### Shopping History
 Track and analyze purchase history.
 
-![Shopping History](docs/screenshots/history.png)
+![Shopping History](docs/screenshots/history.jpg)
 
 - Purchase history list
 - Date-wise filtering
@@ -521,7 +521,7 @@ Track and analyze purchase history.
 ### Share List
 Collaborative shopping with list sharing.
 
-![Share List](docs/screenshots/share_list.png)
+![Share List](docs/screenshots/share_list.jpg)
 
 - Generate share code
 - Share with users
