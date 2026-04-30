@@ -14,6 +14,10 @@
      - RECORD_AUDIO: Voice input
      - READ/WRITE_EXTERNAL_STORAGE: File access
      - POST_NOTIFICATIONS: Push notifications
+     
+     API Levels:
+     - Min SDK: 21 (Android 5.0)
+     - Target SDK: 34 (Android 14)
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
