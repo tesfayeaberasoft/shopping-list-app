@@ -393,25 +393,154 @@ For support, email: tesfayeaberalingane@gmail.com
 
 ## 📱 Screenshots
 
+### How to Add Screenshots
+
+To add actual screenshots to this README:
+
+1. **Take Screenshots on Android Device/Emulator**
+   ```bash
+   adb shell screencap -p /sdcard/screenshot.png
+   adb pull /sdcard/screenshot.png docs/screenshots/
+   ```
+
+2. **Place Screenshots in `docs/screenshots/` Directory**
+   - `main_screen.png` - Main shopping lists screen
+   - `list_detail.png` - Shopping list detail view
+   - `add_item.png` - Add/Edit item screen
+   - `analytics.png` - Analytics dashboard
+   - `pantry.png` - Pantry management
+   - `reminders.png` - Reminders screen
+   - `settings.png` - Settings screen
+   - `barcode_scanner.png` - Barcode scanner
+   - `voice_input.png` - Voice input screen
+   - `history.png` - Shopping history
+   - `share_list.png` - Share list screen
+
+3. **Update README with Image Links**
+   ```markdown
+   ![Main Screen](docs/screenshots/main_screen.png)
+   ![List Detail](docs/screenshots/list_detail.png)
+   ```
+
 ### Main Screen
+Main shopping lists overview with quick add functionality and empty state handling.
+
+![Main Screen](docs/screenshots/main_screen.png)
+
 - Shopping lists overview
 - Quick add button
 - Empty state
+- List management options
 
 ### Shopping List Detail
+Detailed view of individual shopping lists with items organized by categories.
+
+![Shopping List Detail](docs/screenshots/list_detail.png)
+
 - Item list with categories
-- Budget progress
-- Completion status
+- Budget progress indicator
+- Completion status tracking
+- Item quantity and pricing
+- Mark items as purchased
+
+### Add/Edit Item
+Interface for adding and editing shopping items with detailed options.
+
+![Add/Edit Item](docs/screenshots/add_item.png)
+
+- Item name input
+- Category selection
+- Quantity and unit selection
+- Price input
+- Notes field
+- Priority level selection
 
 ### Analytics Dashboard
-- Spending overview
-- Category breakdown
-- Trend analysis
+Comprehensive spending analytics and reports.
+
+![Analytics Dashboard](docs/screenshots/analytics.png)
+
+- Total spending overview
+- Category-wise spending breakdown
+- Monthly/Weekly spending trends
+- Most bought items list
+- Most expensive items list
+- Budget vs actual comparison
+
+### Pantry Management
+Inventory management with expiry date tracking.
+
+![Pantry Management](docs/screenshots/pantry.png)
+
+- Pantry items list
+- Current quantity display
+- Expiry date tracking
+- Low stock alerts
+- Add to shopping list option
+
+### Reminders
+Reminder configuration and management interface.
+
+![Reminders](docs/screenshots/reminders.png)
+
+- Reminder list view
+- Create new reminder
+- Set reminder frequency
+- Notification settings
+- Edit/Delete reminders
 
 ### Settings
-- Language selection
-- Theme preferences
+Application settings and preferences.
+
+![Settings](docs/screenshots/settings.png)
+
+- Language selection (English, Amharic, German)
+- Theme preferences (Light, Dark, System)
 - Account management
+- Notification settings
+- About app information
+
+### Barcode Scanner
+Quick item addition using barcode scanning.
+
+![Barcode Scanner](docs/screenshots/barcode_scanner.png)
+
+- Camera preview
+- Barcode detection
+- Auto-populate item details
+- Quick add to list
+
+### Voice Input
+Add items using voice commands.
+
+![Voice Input](docs/screenshots/voice_input.png)
+
+- Voice recording interface
+- Speech recognition
+- Item confirmation
+- Quick add option
+
+### Shopping History
+Track and analyze purchase history.
+
+![Shopping History](docs/screenshots/history.png)
+
+- Purchase history list
+- Date-wise filtering
+- Spending summary
+- Export options
+- Detailed purchase information
+
+### Share List
+Collaborative shopping with list sharing.
+
+![Share List](docs/screenshots/share_list.png)
+
+- Generate share code
+- Share with users
+- Real-time synchronization
+- Collaborative editing
+- User permissions
 
 ## 🔗 Links
 
