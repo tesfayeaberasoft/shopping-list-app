@@ -1,6 +1,7 @@
 /**
  * ShoppingListAdapter - RecyclerView Adapter for Shopping Lists
  * Displays all shopping lists with item counts and completion status
+ * Supports drag and drop, swipe to delete, and list sharing
  */
 package com.shoppinglist.adapters;
 
