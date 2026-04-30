@@ -1,8 +1,23 @@
-# Shopping List App
+# 🛒 Shopping List App
 
 A feature-rich Android shopping list application with budget tracking, pantry management, and multi-language support.
 
-![App Icon](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+## 🎨 App Icon
+
+The Shopping List App features a custom-designed adaptive icon combining a shopping cart with a checklist design:
+
+- **Shopping Cart**: Represents the core shopping functionality
+- **Checklist Paper**: Shows task management and organization
+- **Grocery Items**: Milk (blue), Apple (green), Bread (brown) with checkmarks
+- **Color Scheme**: Orange (#FF8C00) primary, Green (#228B22) for checkmarks, Brown (#8B7355) for text
+
+![App Icon - Shopping Cart with Checklist](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+**Icon Features:**
+- Vector-based adaptive design (scales to all screen densities)
+- Android 8.0+ (API 26+) support with foreground/background layers
+- Android 13+ (API 33+) monochrome support for themed icons
+- Perfect rendering at any resolution
 
 ## 📱 Overview
 
