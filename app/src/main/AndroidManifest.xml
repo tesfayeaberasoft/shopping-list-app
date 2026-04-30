@@ -18,6 +18,47 @@
      API Levels:
      - Min SDK: 21 (Android 5.0)
      - Target SDK: 34 (Android 14)
+     
+     Security Features:
+     - Network security configuration
+     - Certificate pinning for Firebase
+     - Secure data storage
+     - Permission runtime checks
+     
+     Background Services:
+     - Sync service for cloud data
+     - Reminder notifications
+     - Periodic backup
+     - Data synchronization
+     
+     Intent Filters:
+     - Main launcher activity
+     - Share intent handling
+     - Deep linking support
+     - Barcode scanning intents
+     
+     Features:
+     - Camera feature (optional)
+     - Microphone feature (optional)
+     - Touchscreen support
+     - Multi-window support
+     
+     Broadcast Receivers:
+     - Boot completion receiver
+     - Network state receiver
+     - Reminder notification receiver
+     - Sync completion receiver
+     
+     Content Providers:
+     - FileProvider for secure file sharing
+     - Data sharing between components
+     - External app integration
+     
+     Metadata:
+     - Firebase configuration
+     - Analytics settings
+     - Crash reporting
+     - Performance monitoring
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
