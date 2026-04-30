@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Shopping List App - Android Manifest Configuration
-     Defines app permissions, activities, services, and broadcast receivers -->
+     Defines app permissions, activities, services, and broadcast receivers
+     
+     Key Components:
+     - Activities: MainActivity, AuthActivity, SettingsActivity, etc.
+     - Services: BackgroundSyncService, ReminderBroadcastReceiver
+     - Permissions: Camera, Audio, Storage, Notifications
+     - Providers: FileProvider for file sharing
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
