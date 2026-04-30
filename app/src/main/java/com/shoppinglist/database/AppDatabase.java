@@ -3,6 +3,14 @@
  * Manages all local database operations and entity relationships
  * Version: 1.0
  * Last Updated: 2026-04-30
+ * 
+ * Database Features:
+ * - User account management
+ * - Shopping list storage
+ * - Item tracking and management
+ * - Pantry inventory
+ * - Shopping history
+ * - Reminders and notifications
  */
 package com.shoppinglist.database;
 
