@@ -1,6 +1,7 @@
 /**
  * UserDao - Data Access Object for User Entity
  * Handles all database operations related to user accounts and profiles
+ * Supports CRUD operations and user authentication queries
  */
 package com.shoppinglist.database.dao;
 
