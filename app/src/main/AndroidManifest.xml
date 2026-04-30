@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Shopping List App - Android Manifest Configuration -->
+<!-- Shopping List App - Android Manifest Configuration
+     Defines app permissions, activities, services, and broadcast receivers -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
