@@ -7,6 +7,13 @@
      - Services: BackgroundSyncService, ReminderBroadcastReceiver
      - Permissions: Camera, Audio, Storage, Notifications
      - Providers: FileProvider for file sharing
+     
+     Permissions:
+     - INTERNET: Cloud sync and Firebase
+     - CAMERA: Barcode scanning and photo capture
+     - RECORD_AUDIO: Voice input
+     - READ/WRITE_EXTERNAL_STORAGE: File access
+     - POST_NOTIFICATIONS: Push notifications
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
