@@ -17,6 +17,11 @@
  * - Type converters for complex types
  * - Data Access Objects (DAOs)
  * - Entity relationships
+ * 
+ * Singleton Pattern:
+ * - Single database instance
+ * - Thread-safe operations
+ * - Lazy initialization
  */
 package com.shoppinglist.database;
 
