@@ -1,3 +1,64 @@
+/**
+ * AuthActivity - User Authentication Management
+ * Handles user login, registration, and Google Sign-In
+ * Manages authentication flow and session management
+ * 
+ * Features:
+ * - Email/Password login
+ * - User registration
+ * - Google Sign-In integration
+ * - Session management
+ * - Error handling
+ * - Input validation
+ * 
+ * Fragments:
+ * - LoginFragment: Login screen
+ * - RegisterFragment: Registration screen
+ * 
+ * Authentication Methods:
+ * - Firebase Authentication
+ * - Email/Password
+ * - Google Sign-In
+ * - Session persistence
+ * 
+ * Security Features:
+ * - Password validation
+ * - Email verification
+ * - Secure token storage
+ * - Session timeout
+ * - HTTPS communication
+ * 
+ * User Flow:
+ * 1. User opens app
+ * 2. Check if logged in (SessionManager)
+ * 3. If not logged in, show AuthActivity
+ * 4. User can login or register
+ * 5. On success, navigate to MainActivity
+ * 
+ * Error Handling:
+ * - Invalid credentials
+ * - Network errors
+ * - Firebase errors
+ * - Google Sign-In errors
+ * - Session errors
+ * 
+ * Localization:
+ * - Multi-language support
+ * - Locale applied via attachBaseContext
+ * - Dynamic language switching
+ * 
+ * Performance:
+ * - Efficient authentication
+ * - Minimal network calls
+ * - Smooth transitions
+ * - Memory optimization
+ * 
+ * Testing:
+ * - Unit tests for auth logic
+ * - Integration tests with Firebase
+ * - UI tests for fragments
+ * - Error scenario testing
+ */
 package com.shoppinglist.activities;
 
 import android.content.Context;
