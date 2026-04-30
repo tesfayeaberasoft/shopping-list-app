@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Fade In Animation - Used for smooth UI transitions -->
+<!-- Fade In Animation - Used for smooth UI transitions
+     Provides fade effect for activity and fragment transitions -->
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha
         android:duration="800"
