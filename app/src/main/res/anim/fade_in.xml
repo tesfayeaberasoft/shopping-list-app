@@ -12,6 +12,11 @@
      - Hardware accelerated
      - Smooth 60fps animation
      - Optimized for all devices
+     
+     Best Practices:
+     - Use for screen transitions
+     - Combine with other animations
+     - Test on low-end devices
 -->
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha
