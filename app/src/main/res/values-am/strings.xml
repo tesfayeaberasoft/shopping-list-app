@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Amharic Language - String Resources for Shopping List App -->
+<!-- Amharic Language - String Resources for Shopping List App
+     Complete translation of all UI strings to Amharic language -->
 <resources>
     <!-- App Name -->
     <string name="app_name">የግዢ ዝርዝር</string>
