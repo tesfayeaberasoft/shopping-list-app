@@ -10,6 +10,11 @@
      - Categories: Item categorization in shopping lists
      - Priorities: Item importance levels
      - Localization: Amharic language support
+     
+     Maintenance:
+     - Keep in sync with English arrays
+     - Update when new categories added
+     - Test with all devices
 -->
 <resources>
     <!-- Categories in Amharic -->
