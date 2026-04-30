@@ -105,8 +105,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
 
         // Load saved language preference FIRST (before setting listener)
-        String savedLanguage = getSharedPreferences("app_preferences", MODE_PRIVATE)
-                .getString("language", "en");
+        String savedLanguage = LocaleHelper.getSavedLanguage(this);
         if (savedLanguage.equals("am")) {
             rgLanguage.check(R.id.rb_amharic);
         } else {
@@ -125,14 +124,9 @@ public class SettingsActivity extends AppCompatActivity {
             }
             
             // Only restart if language actually changed
-            String currentLanguage = getSharedPreferences("app_preferences", MODE_PRIVATE)
-                    .getString("language", "en");
+            String currentLanguage = LocaleHelper.getSavedLanguage(this);
             if (!languageCode.equals(currentLanguage)) {
-                // Save language preference
-                getSharedPreferences("app_preferences", MODE_PRIVATE)
-                        .edit().putString("language", languageCode).apply();
-                
-                // Apply language
+                // Save language preference using LocaleHelper
                 LocaleHelper.setLocale(this, languageCode);
                 
                 // Restart app from MainActivity to apply language everywhere
