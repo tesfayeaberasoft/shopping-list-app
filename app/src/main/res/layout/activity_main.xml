@@ -13,6 +13,11 @@
      - Adapts to all screen sizes
      - Supports landscape and portrait
      - Optimized for tablets
+     
+     Accessibility:
+     - Content descriptions
+     - Keyboard navigation
+     - Screen reader support
 -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
