@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shopping Cart Body -->
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M 18,28 L 22,48 L 78,48 L 82,28 Z" />
+    
+    <!-- Cart Handle -->
+    <path
+        android:strokeColor="#5A5A5A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 22,28 Q 30,15 50,15 Q 70,15 78,28" />
+    
+    <!-- Cart Wheels (using paths instead of circles) -->
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M 28,52 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M 72,52 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+    
+    <!-- Checklist Paper Background -->
+    <path
+        android:fillColor="#FFFEF0"
+        android:pathData="M 40,22 L 68,22 Q 70,22 70,24 L 70,62 Q 70,64 68,64 L 40,64 Q 38,64 38,62 L 38,24 Q 38,22 40,22 Z" />
+    
+    <!-- Paper Border -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="0.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 40,22 L 68,22 Q 70,22 70,24 L 70,62 Q 70,64 68,64 L 40,64 Q 38,64 38,62 L 38,24 Q 38,22 40,22 Z" />
+    
+    <!-- Checkmark symbol -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M 42,32 L 44,34 L 48,30" />
+    
+    <!-- "CHECKED" text representation using lines -->
+    <path
+        android:strokeColor="#8B7355"
+        android:strokeWidth="0.8"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 50,30 L 62,30" />
+    
+    <!-- Horizontal divider line -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="0.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 40,36 L 68,36" />
+    
+    <!-- Item 1: Milk (blue circle) -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M 44,42 m -1.5,0 a 1.5,1.5 0 1,0 3,0 a 1.5,1.5 0 1,0 -3,0" />
+    
+    <!-- Item 1 line -->
+    <path
+        android:strokeColor="#8B7355"
+        android:strokeWidth="0.6"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 48,42 L 62,42" />
+    
+    <!-- Item 1 checkmark -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M 64,41 L 65,42 L 67,40" />
+    
+    <!-- Item 2: Apple (green circle) -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M 44,50 m -1.5,0 a 1.5,1.5 0 1,0 3,0 a 1.5,1.5 0 1,0 -3,0" />
+    
+    <!-- Item 2 line -->
+    <path
+        android:strokeColor="#8B7355"
+        android:strokeWidth="0.6"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 48,50 L 62,50" />
+    
+    <!-- Item 2 checkmark -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M 64,49 L 65,50 L 67,48" />
+    
+    <!-- Item 3: Bread (brown circle) -->
+    <path
+        android:fillColor="#CD853F"
+        android:pathData="M 44,58 m -1.5,0 a 1.5,1.5 0 1,0 3,0 a 1.5,1.5 0 1,0 -3,0" />
+    
+    <!-- Item 3 line -->
+    <path
+        android:strokeColor="#8B7355"
+        android:strokeWidth="0.6"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M 48,58 L 62,58" />
+    
+    <!-- Item 3 checkmark -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M 64,57 L 65,58 L 67,56" />
+</vector>

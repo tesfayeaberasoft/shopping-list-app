@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">የግዢ ዝርዝር</string>
+    <string name="app_logo">የግዢ ዝርዝር መተግበሪያ አርማ</string>
+    <string name="tagline">የእርስዎ ብልህ የግዢ ጓደኛ</string>
+    
+    <!-- Authentication -->
+    <string name="login">ግባ</string>
+    <string name="register">ተመዝገብ</string>
+    <string name="login_button_desc">ወደ መለያዎ ይግቡ</string>
+    <string name="register_button_desc">አዲስ መለያ ይፍጠሩ</string>
+    <string name="email">ኢሜይል</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="display_name">የማሳያ ስም</string>
+    <string name="login_button">ግባ</string>
+    <string name="register_button">ተመዝገብ</string>
+    <string name="or">ወይም</string>
+    <string name="google_sign_in">በጉግል ይግቡ</string>
+    <string name="sign_out">ውጣ</string>
+    
+    <!-- Lists -->
+    <string name="create_list">አዲስ ዝርዝር ፍጠር</string>
+    <string name="create_list_short">ዝርዝር\nፍጠር</string>
+    <string name="list_name">የዝርዝር ስም</string>
+    <string name="share">አጋራ</string>
+    <string name="share_code">የማጋራት ኮድ፡ %s</string>
+    <string name="copy_code">ኮድ ቅዳ</string>
+    <string name="join_list">ዝርዝር ተቀላቀል</string>
+    <string name="enter_share_code">የማጋራት ኮድ አስገባ</string>
+    
+    <!-- Items -->
+    <string name="add_item">ዕቃ ጨምር</string>
+    <string name="add_item_short">ዕቃ\nጨምር</string>
+    <string name="item_name">የዕቃ ስም</string>
+    <string name="quantity">ብዛት</string>
+    <string name="unit">መለኪያ</string>
+    <string name="category">ምድብ</string>
+    <string name="priority">ቅድሚያ</string>
+    <string name="note">ማስታወሻ</string>
+    <string name="save">አስቀምጥ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="clear_completed">የተጠናቀቁትን አጽዳ</string>
+    
+    <!-- Sorting -->
+    <string name="sort_category">በምድብ ደርድር</string>
+    <string name="sort_alpha">በፊደል ደርድር</string>
+    <string name="sort_priority">በቅድሚያ ደርድር</string>
+    <string name="sort_date">በቀን ደርድር</string>
+    
+    <!-- Voice & Photo -->
+    <string name="voice_input">የድምጽ ግቤት</string>
+    <string name="photo">ፎቶ</string>
+    <string name="change_photo">ፎቶ ቀይር</string>
+    
+    <!-- Data Management -->
+    <string name="export_data">መረጃ ላክ</string>
+    <string name="import_data">መረጃ አስገባ</string>
+    <string name="language">ቋንቋ</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="profile">መገለጫ</string>
+    
+    <!-- Empty States -->
+    <string name="no_items">ገና ምንም ዕቃዎች የሉም</string>
+    <string name="no_lists">ገና ምንም ዝርዝሮች የሉም</string>
+    
+    <!-- Status -->
+    <string name="purchased">ተገዝቷል</string>
+    <string name="shared_with">ከ%d ተጠቃሚዎች ጋር ተጋርቷል</string>
+    
+    <!-- Priority Levels -->
+    <string name="high">ከፍተኛ</string>
+    <string name="medium">መካከለኛ</string>
+    <string name="low">ዝቅተኛ</string>
+    
+    <!-- Validation Errors -->
+    <string name="error_name_required">ስም ያስፈልጋል</string>
+    <string name="error_name_too_short">ስም ቢያንስ 2 ፊደላት መሆን አለበት</string>
+    <string name="error_email_required">ኢሜይል ያስፈልጋል</string>
+    <string name="error_email_invalid">እባክዎ ትክክለኛ ኢሜይል ያስገቡ</string>
+    <string name="error_password_required">የይለፍ ቃል ያስፈልጋል</string>
+    <string name="error_password_too_short">የይለፍ ቃል ቢያንስ 6 ፊደላት መሆን አለበት</string>
+    <string name="error_password_weak">የይለፍ ቃል ቢያንስ አንድ ፊደል እና አንድ ቁጥር መያዝ አለበት</string>
+    
+    <!-- Registration Messages -->
+    <string name="registration_success">ምዝገባ ተሳክቷል! እንኳን ደህና መጡ!</string>
+    <string name="registration_failed">ምዝገባ አልተሳካም፡ %s</string>
+    <string name="login_failed">መግባት አልተሳካም፡ %s</string>
+    
+    <!-- Profile Page -->
+    <string name="profile_info">የመገለጫ መረጃ</string>
+    <string name="new_password">አዲስ የይለፍ ቃል (አማራጭ)</string>
+    <string name="password_helper">ያለውን ለመጠበቅ ባዶ ይተዉት</string>
+    <string name="save_changes">ለውጦችን አስቀምጥ</string>
+    <string name="profile_updated">መገለጫ በተሳካ ሁኔታ ተዘምኗል</string>
+    <string name="password_updated">የይለፍ ቃል በተሳካ ሁኔታ ተዘምኗል</string>
+    <string name="password_update_failed">የይለፍ ቃል ማዘመን አልተሳካም፡ %s</string>
+    <string name="photo_uploaded">ፎቶ በተሳካ ሁኔታ ተጭኗል</string>
+    <string name="photo_upload_failed">ፎቶ መጫን አልተሳካም</string>
+    <string name="photo_saved_locally">ፎቶ በአካባቢው ተቀምጧል (የFirebase ማከማቻ አይገኝም)</string>
+    <string name="uploading_photo">ፎቶ በመጫን ላይ...</string>
+    <string name="data_management">የመረጃ አስተዳደር</string>
+    <string name="choose_photo_source">የፎቶ ምንጭ ይምረጡ</string>
+    <string name="take_photo">ፎቶ አንሳ</string>
+    <string name="choose_from_gallery">ከማከማቻ ይምረጡ</string>
+    <string name="camera_error">የካሜራ ስህተት</string>
+    
+    <!-- Theme -->
+    <string name="theme">ገጽታ</string>
+    <string name="light_mode">ብሩህ ገጽታ</string>
+    <string name="dark_mode">ጨለማ ገጽታ</string>
+    <string name="system_default">የስርዓት ነባሪ</string>
+    
+    <!-- Google Sign-In -->
+    <string name="google_sign_in_success">በጉግል በተሳካ ሁኔታ ገብተዋል</string>
+    <string name="google_sign_in_failed">በጉግል መግባት አልተሳካም፡ %s</string>
+    <string name="google_sign_in_cancelled">መግባት ተሰርዟል</string>
+    <string name="google_sign_in_config_error">የጉግል መግቢያ ማዋቀሪያ ስህተት። እባክዎ ማዋቀሪያዎን ያረጋግጡ።</string>
+    
+    <!-- Loading -->
+    <string name="loading">በመጫን ላይ...</string>
+    
+    <!-- Budget Tracking -->
+    <string name="price">ዋጋ</string>
+    <string name="price_optional">አማራጭ - ለበጀት ክትትል</string>
+    <string name="budget">በጀት</string>
+    <string name="set_budget">በጀት ያስቀምጡ</string>
+    <string name="total_cost">ጠቅላላ ወጪ</string>
+    <string name="spent">ወጪ የተደረገ</string>
+    <string name="remaining">የቀረ</string>
+    <string name="over_budget">ከበጀት በላይ!</string>
+    <string name="within_budget">በበጀት ውስጥ</string>
+    <string name="no_budget_set">ምንም በጀት አልተቀመጠም</string>
+    <string name="budget_summary">የበጀት ማጠቃለያ</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="scan_barcode">ባርኮድ ስካን ያድርጉ</string>
+    <string name="barcode_scanned">ባርኮድ ተስካን ተደርጓል</string>
+    <string name="scan_product">ምርት ስካን ያድርጉ</string>
+    <string name="align_barcode">ባርኮድን በፍሬም ውስጥ ያስተካክሉ</string>
+    <string name="point_camera">ካሜራውን ወደ ምርት ባርኮድ ያመልክቱ</string>
+    
+    <!-- Analytics Dashboard -->
+    <string name="analytics">ትንታኔዎች</string>
+    <string name="analytics_dashboard">የትንታኔ ዳሽቦርድ</string>
+    <string name="spending_analytics">የወጪ ትንታኔዎች</string>
+    <string name="total_spent">ጠቅላላ ወጪ</string>
+    <string name="average_per_list">አማካይ/ዝርዝር</string>
+    <string name="total_lists">ጠቅላላ ዝርዝሮች</string>
+    <string name="total_items">ጠቅላላ ዕቃዎች</string>
+    <string name="budget_vs_actual">በጀት ከትክክለኛው ጋር</string>
+    <string name="budget_total">በጀት</string>
+    <string name="actual_total">ትክክለኛ</string>
+    <string name="under_budget">ከበጀት በታች</string>
+    <string name="shopping_frequency">የግዢ ድግግሞሽ</string>
+    <string name="frequency">ድግግሞሽ</string>
+    <string name="last_shopping">የመጨረሻ ግዢ</string>
+    <string name="most_frequent_category">በጣም የተለመደ ምድብ</string>
+    <string name="most_expensive_items">በጣም ውድ ዕቃዎች</string>
+    <string name="no_budget_data">ምንም የበጀት መረጃ የለም</string>
+    
+    <!-- Pantry Inventory -->
+    <string name="pantry">መጋዘን</string>
+    <string name="pantry_inventory">የመጋዘን ዝርዝር</string>
+    <string name="add_pantry_item">የመጋዘን ዕቃ ጨምር</string>
+    <string name="edit_pantry_item">የመጋዘን ዕቃ አርትዕ</string>
+    <string name="no_pantry_items">ገና ምንም የመጋዘን ዕቃዎች የሉም</string>
+    <string name="search_pantry">የመጋዘን ዕቃዎችን ፈልግ...</string>
+    <string name="current_quantity">የአሁኑ ብዛት</string>
+    <string name="current_qty">አሁን</string>
+    <string name="minimum_quantity">ዝቅተኛ ብዛት</string>
+    <string name="minimum_quantity_hint">ክምችት ከዚህ በታች ሲወርድ ማስጠንቀቂያ</string>
+    <string name="location">አካባቢ</string>
+    <string name="expiry_date">የማብቂያ ቀን</string>
+    <string name="expiry_date_optional">አማራጭ</string>
+    <string name="notes">ማስታወሻዎች</string>
+    <string name="low_stock_alert">ዝቅተኛ ክምችት ማስጠንቀቂያ</string>
+    <string name="expiring_soon">በቅርቡ ያበቃል</string>
+    <string name="view">ይመልከቱ</string>
+    <string name="adjust_qty">ብዛት ያስተካክሉ</string>
+    <string name="edit">አርትዕ</string>
+    <string name="low_stock">ዝቅተኛ ክምችት</string>
+    <string name="expires_soon">በቅርቡ ያበቃል</string>
+    <string name="expired">አብቅቷል</string>
+    <string name="items_running_low">%d ዕቃዎች እየተጠናቀቁ ነው</string>
+    <string name="items_expiring_soon">%d ዕቃዎች በቅርቡ ያበቃሉ</string>
+    <string name="add_to_shopping_list">ወደ የግዢ ዝርዝር ጨምር</string>
+    <string name="auto_suggest_low_stock">ዝቅተኛ ክምችት ያላቸውን ዕቃዎች በራስ-ሰር ጠቁም</string>
+    
+    <!-- Pantry Locations -->
+    <string name="loc_pantry">መጋዘን</string>
+    <string name="loc_fridge">ፍሪጅ</string>
+    <string name="loc_freezer">ፍሪዘር</string>
+    <string name="loc_cabinet">ካቢኔት</string>
+    <string name="loc_counter">ካውንተር</string>
+    
+    <!-- Reminders & Notifications -->
+    <string name="reminders">ማስታወሻዎች</string>
+    <string name="add_reminder">ማስታወሻ ጨምር</string>
+    <string name="edit_reminder">ማስታወሻ አርትዕ</string>
+    <string name="no_reminders">ምንም ማስታወሻዎች አልተቀመጡም</string>
+    <string name="reminder_title">የማስታወሻ ርዕስ</string>
+    <string name="reminder_message">መልእክት</string>
+    <string name="scheduled_time">የታቀደ ጊዜ</string>
+    <string name="repeat">ድገም</string>
+    <string name="repeat_none">አትድገም</string>
+    <string name="repeat_daily">በየቀኑ</string>
+    <string name="repeat_weekly">በየሳምንቱ</string>
+    <string name="repeat_monthly">በየወሩ</string>
+    <string name="reminder_type">የማስታወሻ ዓይነት</string>
+    <string name="time_based_reminder">በጊዜ ላይ የተመሰረተ ማስታወሻ</string>
+    <string name="low_stock_reminder">ዝቅተኛ ክምችት ማስጠንቀቂያ</string>
+    <string name="shopping_day_reminder">የግዢ ቀን ማስታወሻ</string>
+    <string name="expiry_reminder">የማብቂያ ማስታወሻ</string>
+    <string name="set_date_time">ቀን እና ሰዓት ያስቀምጡ</string>
+    <string name="notification_permission_required">ለማስታወሻዎች የማሳወቂያ ፈቃድ ያስፈልጋል</string>
+    <string name="enable_notifications">ማሳወቂያዎችን አንቃ</string>
+    
+    <!-- Shopping History -->
+    <string name="shopping_history">የግዢ ታሪክ</string>
+    <string name="history">ታሪክ</string>
+    <string name="reports">ሪፖርቶች</string>
+    <string name="no_purchase_history">ገና ምንም የግዢ ታሪክ የለም</string>
+    <string name="search_history">ታሪክ ፈልግ...</string>
+    <string name="most_bought_items">በጣም ብዙ የተገዙ ዕቃዎች</string>
+    <string name="category_spending">በምድብ ወጪ</string>
+    <string name="monthly_report">ወርሃዊ ሪፖርት</string>
+    <string name="weekly_report">ሳምንታዊ ሪፖርት</string>
+    <string name="this_month">ይህ ወር</string>
+    <string name="this_week">ይህ ሳምንት</string>
+    <string name="average_per_trip">አማካይ በእያንዳንዱ ጉብኝት</string>
+    <string name="purchase_trends">የግዢ አዝማሚያዎች</string>
+    <string name="spending_analysis">የወጪ ትንታኔ</string>
+    <string name="date">ቀን</string>
+    <string name="store">ሱቅ</string>
+    <string name="filter_history">ታሪክ ማጣሪያ</string>
+    <string name="export_history">ታሪክ ላክ</string>
+    
+    <!-- Google Sign-In Web Client ID -->
+    <string name="default_web_client_id" translatable="false">YOUR_WEB_CLIENT_ID_HERE</string>
+</resources>

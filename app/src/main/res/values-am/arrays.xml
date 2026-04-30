@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categories in Amharic -->
+    <string-array name="categories">
+        <item>ምግብ</item>
+        <item>ኤሌክትሮኒክስ</item>
+        <item>ልብስ</item>
+        <item>የቤት እቃዎች</item>
+        <item>ሌላ</item>
+    </string-array>
+
+    <!-- Priorities in Amharic -->
+    <string-array name="priorities">
+        <item>@string/high</item>
+        <item>@string/medium</item>
+        <item>@string/low</item>
+    </string-array>
+</resources>
