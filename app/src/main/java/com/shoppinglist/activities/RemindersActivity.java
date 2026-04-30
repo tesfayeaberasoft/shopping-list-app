@@ -1,3 +1,89 @@
+/**
+ * RemindersActivity - Reminder Management
+ * Manages shopping reminders and notifications
+ * Handles reminder scheduling and delivery
+ * 
+ * Features:
+ * - Create reminders
+ * - Edit reminders
+ * - Delete reminders
+ * - Set reminder time
+ * - Set repeat frequency
+ * - Reminder types (time-based, low stock, expiry)
+ * - Notification delivery
+ * - Reminder history
+ * 
+ * Reminder Types:
+ * - Time-based reminders: Scheduled at specific time
+ * - Low stock reminders: When pantry items run low
+ * - Expiry reminders: When items are expiring
+ * - Shopping day reminders: Recurring shopping days
+ * 
+ * Repeat Options:
+ * - No repeat (one-time)
+ * - Daily
+ * - Weekly
+ * - Monthly
+ * - Custom intervals
+ * 
+ * Notification Features:
+ * - Push notifications
+ * - In-app notifications
+ * - Sound alerts
+ * - Vibration
+ * - LED indicators
+ * - Notification channels
+ * 
+ * UI Components:
+ * - RecyclerView for reminder list
+ * - Time picker for scheduling
+ * - Date picker for dates
+ * - Repeat selector
+ * - FAB for adding reminders
+ * - Alert dialogs for management
+ * 
+ * Data Management:
+ * - ReminderViewModel for data
+ * - ReminderAdapter for display
+ * - Local database storage
+ * - Cloud synchronization
+ * - ReminderManager for scheduling
+ * 
+ * Permissions:
+ * - POST_NOTIFICATIONS (Android 13+)
+ * - SCHEDULE_EXACT_ALARM
+ * - RECEIVE_BOOT_COMPLETED
+ * 
+ * Background Services:
+ * - AlarmManager for scheduling
+ * - BroadcastReceiver for triggers
+ * - NotificationManager for delivery
+ * - WorkManager for reliability
+ * 
+ * User Interactions:
+ * - Click to view details
+ * - Long press for context menu
+ * - Swipe to delete
+ * - Edit inline
+ * - Enable/disable reminders
+ * 
+ * Localization:
+ * - Multi-language support
+ * - Locale applied via attachBaseContext
+ * - Dynamic language switching
+ * 
+ * Performance:
+ * - Efficient scheduling
+ * - Minimal battery usage
+ * - Smooth UI
+ * - Memory optimization
+ * 
+ * Testing:
+ * - Unit tests for reminder logic
+ * - Integration tests with AlarmManager
+ * - UI tests for interactions
+ * - Notification testing
+ */
 package com.shoppinglist.activities;
 
 import android.Manifest;
