@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Amharic Language - Array Resources
-     Contains category and priority arrays in Amharic language -->
+     Contains category and priority arrays in Amharic language
+     
+     Arrays:
+     - categories: Food, Electronics, Clothing, Household, Other
+     - priorities: High, Medium, Low
+-->
 <resources>
     <!-- Categories in Amharic -->
     <string-array name="categories">
