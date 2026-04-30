@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- English Language - String Resources for Shopping List App
-     Contains all UI strings, error messages, and user-facing text -->
+     Contains all UI strings, error messages, and user-facing text
+     
+     String Categories:
+     - Authentication (Login, Register, Google Sign-In)
+     - Shopping Lists (Create, Share, Join)
+     - Items (Add, Edit, Delete, Sort)
+     - Budget Tracking & Analytics
+     - Pantry Management & Inventory
+     - Reminders & Notifications
+     - Shopping History & Reports
+     - Settings & Preferences
+-->
 <resources>
     <string name="app_name">Shopping List</string>
     <string name="app_logo">Shopping List App Logo</string>
