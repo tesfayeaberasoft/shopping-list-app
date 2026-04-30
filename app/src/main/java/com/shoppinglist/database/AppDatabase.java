@@ -1,6 +1,8 @@
 /**
  * Shopping List App - Room Database Configuration
  * Manages all local database operations and entity relationships
+ * Version: 1.0
+ * Last Updated: 2026-04-30
  */
 package com.shoppinglist.database;
 
