@@ -10,11 +10,61 @@
      - Categories: Item categorization in shopping lists
      - Priorities: Item importance levels
      - Localization: Amharic language support
+     - Spinner population
+     - Filter options
+     
+     Array Structure:
+     - String arrays for dropdown menus
+     - Indexed access for programmatic use
+     - Consistent ordering across languages
+     - Localized display names
+     
+     Categories:
+     - ምግብ (Food) - Groceries, produce, dairy
+     - ኤሌክትሮኒክስ (Electronics) - Gadgets, appliances
+     - ልብስ (Clothing) - Apparel, shoes, accessories
+     - ቤት (Household) - Home items, supplies
+     - ሌላ (Other) - Miscellaneous items
+     
+     Priorities:
+     - ከፍተኛ (High) - Urgent, essential items
+     - መካከለኛ (Medium) - Regular items
+     - ዝቅተኛ (Low) - Optional items
      
      Maintenance:
      - Keep in sync with English arrays
      - Update when new categories added
      - Test with all devices
+     - Verify Amharic script rendering
+     - Check array ordering
+     - Validate string lengths
+     
+     Performance:
+     - Lazy loading of arrays
+     - Efficient array access
+     - Minimal memory usage
+     - Fast spinner population
+     
+     Localization:
+     - Amharic script (Ge'ez)
+     - Proper character encoding
+     - Font compatibility
+     - Text direction support
+     
+     Testing:
+     - Spinner display
+     - Selection functionality
+     - Array ordering
+     - String truncation
+     - Device compatibility
+     - Language switching
+     
+     Future Enhancements:
+     - Add more categories
+     - Custom category support
+     - Category icons
+     - Category colors
+     - Subcategories
 -->
 <resources>
     <!-- Categories in Amharic -->
