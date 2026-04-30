@@ -8,6 +8,12 @@
      - Three grocery items (milk, apple, bread)
      - Green checkmarks for completed items
      - Orange and brown color scheme
+     
+     Color Palette:
+     - Orange: #FF8C00 (Primary)
+     - Green: #228B22 (Checkmarks)
+     - Brown: #8B7355 (Text)
+     - Blue: #87CEEB (Milk)
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
