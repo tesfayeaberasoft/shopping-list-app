@@ -2,6 +2,15 @@
  * UserDao - Data Access Object for User Entity
  * Handles all database operations related to user accounts and profiles
  * Supports CRUD operations and user authentication queries
+ * 
+ * DAO Operations:
+ * - Insert new user
+ * - Update user profile
+ * - Delete user account
+ * - Query user by ID
+ * - Query user by email
+ * - Get all users
+ * - User authentication
  */
 package com.shoppinglist.database.dao;
 
