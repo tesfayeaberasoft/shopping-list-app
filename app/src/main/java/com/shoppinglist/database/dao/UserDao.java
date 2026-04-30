@@ -11,6 +11,10 @@
  * - Query user by email
  * - Get all users
  * - User authentication
+ * 
+ * Conflict Strategy:
+ * - REPLACE: Replaces existing user on conflict
+ * - Ensures data consistency
  */
 package com.shoppinglist.database.dao;
 
