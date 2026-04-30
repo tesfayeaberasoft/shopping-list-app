@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Fade In Animation - Used for smooth UI transitions
-     Provides fade effect for activity and fragment transitions -->
+     Provides fade effect for activity and fragment transitions
+     
+     Animation Properties:
+     - Duration: 300ms
+     - Effect: Fade in from transparent to opaque
+     - Used for: Activity transitions, Fragment animations
+     - Timing: Linear interpolation
+-->
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha
         android:duration="800"
