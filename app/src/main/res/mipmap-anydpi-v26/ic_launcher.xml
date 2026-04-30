@@ -7,16 +7,78 @@
      - Foreground: Shopping cart with checklist
      - Format: Vector graphics (scalable)
      - Supports: All screen densities
+     - Size: 108x108 dp (safe zone: 72x72 dp)
      
      Adaptive Icon Benefits:
      - Consistent appearance across devices
      - Customizable by launcher
      - Supports dynamic theming
+     - Responsive to system settings
+     - Smooth animations
+     - Mask support for various shapes
+     
+     Icon Layers:
+     - Background Layer: Solid color or gradient
+     - Foreground Layer: Main icon design
+     - Safe Zone: 72x72 dp (center area)
+     - Bleed Area: 108x108 dp (full size)
+     
+     Design Guidelines:
+     - Follow Material Design 3
+     - Maintain 1:1 aspect ratio
+     - Use vector graphics
+     - Optimize for clarity
+     - Test on multiple devices
+     - Ensure readability at small sizes
+     
+     Color Palette:
+     - Primary Orange: #FF8C00
+     - Accent Green: #228B22
+     - Text Brown: #8B7355
+     - Background: #FFFEF0
+     
+     Rendering:
+     - Automatic scaling
+     - Density-independent
+     - High-quality output
+     - Fast rendering
+     - Memory efficient
+     
+     Compatibility:
+     - Android 8.0+ (API 26+)
+     - All screen sizes
+     - All screen densities
+     - All device orientations
+     - Dark/Light themes
+     
+     Performance:
+     - Lightweight vector format
+     - Fast loading
+     - Minimal memory usage
+     - Smooth animations
+     - No performance impact
      
      Testing:
      - Tested on multiple devices
      - Verified on all Android versions
      - Optimized for performance
+     - Checked on various launchers
+     - Validated with design tools
+     - Performance profiled
+     
+     Accessibility:
+     - Clear visual distinction
+     - High contrast
+     - Readable at all sizes
+     - Semantic meaning
+     - Recognizable design
+     
+     Future Updates:
+     - Dynamic icon support
+     - Themed icons
+     - Animated icons
+     - Seasonal variations
+     - User customization
 -->
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@drawable/ic_launcher_background"/>
