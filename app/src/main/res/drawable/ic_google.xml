@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Replace with actual Google logo, this is a placeholder -->
+    <path
+        android:fillColor="#FF4285F4"
+        android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"/>
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,6c1.4,0 2.7,0.5 3.7,1.3l2.8,-2.8C16.9,3.2 14.6,2.4 12,2.4c-4.1,0 -7.6,2.6 -8.9,6.2l3.3,2.5C7.2,8.6 9.4,6 12,6z"/>
+</vector>

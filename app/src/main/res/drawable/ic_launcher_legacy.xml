@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#FF6F00"
+                android:centerColor="#FF8F00"
+                android:endColor="#FFD54F"
+                android:type="linear" />
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+    
+    <!-- Shopping cart icon -->
+    <item
+        android:width="64dp"
+        android:height="64dp"
+        android:gravity="center">
+        <vector
+            android:width="64dp"
+            android:height="64dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <!-- Cart body - White -->
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M7 18c-1.1 0 -2 .9 -2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.6L5.3 14c-.6 1-.2 2 .9 2h12v-2H7.4c-.1 0-.2-.1-.2-.2l.1-.1h8.3c.8 0 1.5-.4 1.9-1l3.6-6.5c.2-.3.3-.7.3-1.1 0-1.1-.9-2-2-2H5.2l-.9-2H1zm16 16c-1.1 0 -2 .9 -2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+            <!-- Checkmark - Green -->
+            <path
+                android:strokeColor="#4CAF50"
+                android:strokeWidth="2"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:pathData="M9,11 L11,13 L15,9"/>
+        </vector>
+    </item>
+</layer-list>
