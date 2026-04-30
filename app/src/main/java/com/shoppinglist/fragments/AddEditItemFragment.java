@@ -18,6 +18,11 @@
  * - Spinner for categories
  * - RadioGroup for priorities
  * - EditText for quantity and notes
+ * 
+ * Data Binding:
+ * - ViewModel integration
+ * - LiveData for reactive updates
+ * - Two-way data binding
  */
 package com.shoppinglist.fragments;
 
