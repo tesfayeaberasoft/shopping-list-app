@@ -8,6 +8,11 @@
      - FloatingActionButton: Create new list
      - TextView: Empty state message
      - Material Design: Modern UI components
+     
+     Responsive Design:
+     - Adapts to all screen sizes
+     - Supports landscape and portrait
+     - Optimized for tablets
 -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
