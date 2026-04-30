@@ -1,3 +1,78 @@
+/**
+ * PantryActivity - Pantry Inventory Management
+ * Manages pantry items with expiry tracking and low stock alerts
+ * Provides inventory management and item organization
+ * 
+ * Features:
+ * - Add pantry items
+ * - Edit pantry items
+ * - Delete pantry items
+ * - Track quantities
+ * - Set minimum quantities
+ * - Track expiry dates
+ * - Low stock alerts
+ * - Expiry date alerts
+ * - Search functionality
+ * - Filter by location
+ * - Add to shopping list
+ * 
+ * UI Components:
+ * - RecyclerView for item list
+ * - Search bar for filtering
+ * - Low stock card
+ * - Expiring soon card
+ * - FAB for adding items
+ * - Alert dialogs for item management
+ * 
+ * Data Management:
+ * - PantryViewModel for data
+ * - PantryItemAdapter for display
+ * - Local database storage
+ * - Cloud synchronization
+ * 
+ * Inventory Tracking:
+ * - Current quantity
+ * - Minimum quantity threshold
+ * - Expiry date tracking
+ * - Location tracking
+ * - Notes and descriptions
+ * 
+ * Alerts & Notifications:
+ * - Low stock alerts
+ * - Expiry date alerts
+ * - Automatic suggestions
+ * - Real-time updates
+ * 
+ * Search & Filter:
+ * - Search by item name
+ * - Filter by location
+ * - Filter by status (low stock, expiring)
+ * - Sort options
+ * 
+ * User Interactions:
+ * - Click to view details
+ * - Long press for context menu
+ * - Swipe to delete
+ * - Edit inline
+ * - Add to shopping list
+ * 
+ * Localization:
+ * - Multi-language support
+ * - Locale applied via attachBaseContext
+ * - Dynamic language switching
+ * 
+ * Performance:
+ * - Efficient data loading
+ * - Smooth scrolling
+ * - Lazy loading
+ * - Memory optimization
+ * 
+ * Testing:
+ * - Unit tests for inventory logic
+ * - Integration tests with database
+ * - UI tests for interactions
+ * - Alert testing
+ */
 package com.shoppinglist.activities;
 
 import android.app.DatePickerDialog;
