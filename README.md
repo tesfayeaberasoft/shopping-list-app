@@ -393,34 +393,6 @@ For support, email: tesfayeaberalingane@gmail.com
 
 ## 📱 Screenshots
 
-### How to Add Screenshots
-
-To add actual screenshots to this README:
-
-1. **Take Screenshots on Android Device/Emulator**
-   ```bash
-   adb shell screencap -p /sdcard/screenshot.png
-   adb pull /sdcard/screenshot.png docs/screenshots/
-   ```
-
-2. **Place Screenshots in `docs/screenshots/` Directory**
-   - `main_screen.png` - Main shopping lists screen
-   - `list_detail.png` - Shopping list detail view
-   - `add_item.png` - Add/Edit item screen
-   - `analytics.png` - Analytics dashboard
-   - `pantry.png` - Pantry management
-   - `reminders.png` - Reminders screen
-   - `settings.png` - Settings screen
-   - `barcode_scanner.png` - Barcode scanner
-   - `voice_input.png` - Voice input screen
-   - `history.png` - Shopping history
-   - `share_list.png` - Share list screen
-
-3. **Update README with Image Links**
-   ```markdown
-   ![Main Screen](docs/screenshots/main_screen.png)
-   ![List Detail](docs/screenshots/list_detail.png)
-   ```
 
 ### Main Screen
 Main shopping lists overview with quick add functionality and empty state handling.
