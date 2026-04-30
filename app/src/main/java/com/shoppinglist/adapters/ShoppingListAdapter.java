@@ -12,6 +12,12 @@
  * - List sharing functionality
  * - Click listeners for list operations
  * - Item count caching
+ * 
+ * ViewHolder:
+ * - List name display
+ * - Item count badge
+ * - Completion progress indicator
+ * - Action buttons
  */
 package com.shoppinglist.adapters;
 
