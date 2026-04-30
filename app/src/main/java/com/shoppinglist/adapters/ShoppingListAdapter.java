@@ -18,6 +18,12 @@
  * - Item count badge
  * - Completion progress indicator
  * - Action buttons
+ * 
+ * Performance Optimization:
+ * - ViewHolder pattern
+ * - Item count caching
+ * - Efficient list updates
+ * - Smooth animations
  */
 package com.shoppinglist.adapters;
 
