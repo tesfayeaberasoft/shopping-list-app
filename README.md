@@ -357,8 +357,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email: support@shoppinglist.app
-
+For support, email: tesfayeaberalingane@gmail.com
 ## 🙏 Acknowledgments
 
 - Material Design team for design guidelines
