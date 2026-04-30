@@ -5,6 +5,11 @@
      Arrays:
      - categories: Food, Electronics, Clothing, Household, Other
      - priorities: High, Medium, Low
+     
+     Usage:
+     - Categories: Item categorization in shopping lists
+     - Priorities: Item importance levels
+     - Localization: Amharic language support
 -->
 <resources>
     <!-- Categories in Amharic -->
