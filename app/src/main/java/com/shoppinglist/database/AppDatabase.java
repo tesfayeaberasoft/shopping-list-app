@@ -22,6 +22,35 @@
  * - Single database instance
  * - Thread-safe operations
  * - Lazy initialization
+ * 
+ * Database Migrations:
+ * - Version 1→2: Added budget tracking (price, budget fields)
+ * - Version 2→3: Added pantry inventory management
+ * - Version 3→4: Added reminders and notifications
+ * - Version 4→5: Added shopping history tracking
+ * 
+ * Performance Optimization:
+ * - Indexed queries for fast lookups
+ * - Efficient data relationships
+ * - Lazy loading support
+ * - Transaction support for data consistency
+ * 
+ * Data Consistency:
+ * - Foreign key constraints
+ * - Cascade delete operations
+ * - Data validation
+ * - Conflict resolution strategies
+ * 
+ * Thread Safety:
+ * - Synchronized getInstance method
+ * - Room handles concurrent access
+ * - Safe for multi-threaded operations
+ * 
+ * Backup & Recovery:
+ * - Schema export for version control
+ * - Migration support for updates
+ * - Fallback to destructive migration
+ * - Data persistence across app updates
  */
 package com.shoppinglist.database;
 
