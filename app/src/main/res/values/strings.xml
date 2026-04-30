@@ -11,14 +11,49 @@
      - Reminders & Notifications
      - Shopping History & Reports
      - Settings & Preferences
+     - Error Messages & Validation
+     - Accessibility Labels
+     - Dialog Messages
+     - Toast Notifications
      
      Total Strings: 150+
      Last Updated: 2026-04-30
      
      Localization:
-     - English (en)
-     - Amharic (am)
-     - German (de)
+     - English (en) - Base language
+     - Amharic (am) - Complete translation
+     - German (de) - Complete translation
+     
+     String Naming Convention:
+     - action_* : User actions (action_save, action_delete)
+     - label_* : UI labels (label_item_name, label_quantity)
+     - error_* : Error messages (error_empty_field, error_invalid_email)
+     - msg_* : Messages and notifications (msg_item_added, msg_sync_complete)
+     - hint_* : Input hints (hint_enter_name, hint_select_category)
+     - title_* : Screen titles (title_shopping_list, title_settings)
+     - desc_* : Descriptions and accessibility (desc_add_button, desc_delete_item)
+     
+     Best Practices:
+     - Keep strings concise and clear
+     - Use consistent terminology
+     - Provide context for translations
+     - Include placeholders for dynamic content
+     - Add descriptions for accessibility
+     - Use proper punctuation
+     - Avoid hardcoded strings in code
+     
+     Accessibility:
+     - Content descriptions for all buttons
+     - Semantic labels for form fields
+     - Clear error messages
+     - Readable font sizes
+     - High contrast text
+     
+     Performance:
+     - Lazy loading of strings
+     - Efficient resource lookup
+     - Minimal memory footprint
+     - Fast string resolution
 -->
 <resources>
     <string name="app_name">Shopping List</string>
