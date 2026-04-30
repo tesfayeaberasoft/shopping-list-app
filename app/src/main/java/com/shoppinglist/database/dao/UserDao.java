@@ -15,6 +15,11 @@
  * Conflict Strategy:
  * - REPLACE: Replaces existing user on conflict
  * - Ensures data consistency
+ * 
+ * Thread Safety:
+ * - Room handles thread safety
+ * - Async operations recommended
+ * - LiveData for reactive queries
  */
 package com.shoppinglist.database.dao;
 
