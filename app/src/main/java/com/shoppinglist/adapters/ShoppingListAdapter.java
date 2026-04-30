@@ -1,3 +1,7 @@
+/**
+ * ShoppingListAdapter - RecyclerView Adapter for Shopping Lists
+ * Displays all shopping lists with item counts and completion status
+ */
 package com.shoppinglist.adapters;
 
 import android.view.LayoutInflater;

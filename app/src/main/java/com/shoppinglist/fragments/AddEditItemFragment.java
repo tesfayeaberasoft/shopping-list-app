@@ -1,3 +1,7 @@
+/**
+ * AddEditItemFragment - Shopping Item Management
+ * Handles adding and editing shopping items with categories, quantities, and priorities
+ */
 package com.shoppinglist.fragments;
 
 import android.app.Activity;

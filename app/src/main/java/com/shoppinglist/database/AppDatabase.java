@@ -1,3 +1,7 @@
+/**
+ * Shopping List App - Room Database Configuration
+ * Manages all local database operations and entity relationships
+ */
 package com.shoppinglist.database;
 
 import android.content.Context;

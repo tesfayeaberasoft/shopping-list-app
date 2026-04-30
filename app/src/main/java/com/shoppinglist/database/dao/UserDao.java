@@ -1,3 +1,7 @@
+/**
+ * UserDao - Data Access Object for User Entity
+ * Handles all database operations related to user accounts and profiles
+ */
 package com.shoppinglist.database.dao;
 
 import androidx.room.Dao;
