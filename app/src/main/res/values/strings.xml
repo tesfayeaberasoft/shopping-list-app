@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- English Language - String Resources for Shopping List App -->
+<!-- English Language - String Resources for Shopping List App
+     Contains all UI strings, error messages, and user-facing text -->
 <resources>
     <string name="app_name">Shopping List</string>
     <string name="app_logo">Shopping List App Logo</string>
