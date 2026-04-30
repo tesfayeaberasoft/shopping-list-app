@@ -14,6 +14,11 @@
      
      Total Strings: 150+
      Last Updated: 2026-04-30
+     
+     Localization:
+     - English (en)
+     - Amharic (am)
+     - German (de)
 -->
 <resources>
     <string name="app_name">Shopping List</string>
